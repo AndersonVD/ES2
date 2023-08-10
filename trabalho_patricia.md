@@ -22,11 +22,11 @@ Cada projeto tem um nível de requisitos a serem levantados, sendo um deles a li
 
 ---
 
-## Ferramentas de teste funcional.
+## **Ferramentas de teste funcional.**
 
 ### **pytest**
 
-**Tipo de ferramenta:** Framework de teste unitário e funcional em Python.
+**Tipo de ferramenta:** XUnit ferramentas.
 
 **Intenção da ferramenta:** O pytest tem como intenção oferecer uma estrutura simplificada e flexível para criar e executar testes automatizados em projetos Python, abrangendo tanto testes de unidade quanto testes funcionais.
 
@@ -34,7 +34,7 @@ Cada projeto tem um nível de requisitos a serem levantados, sendo um deles a li
 
 ### **PyUnit**
 
-**Tipo de ferramenta:** Framework de teste unitário em Python.
+**Tipo de ferramenta:** XUnit ferramentas.
 
 **Intenção da ferramenta:** O PyUnit é projetado para possibilitar a criação e execução de testes de unidade automatizados em projetos Python, visando garantir a qualidade e confiabilidade do código.
 
@@ -52,11 +52,13 @@ Em contrapartida, o PyUnit segue uma abordagem mais tradicional de orientação 
 
 As lacunas nas ferramentas de teste funcional podem incluir a falta de recursos de teste mais avançados, como a capacidade de executar testes de carga ou testes de integração complexos. Além disso, pode haver espaço para uma ferramenta que ofereça uma experiência de usuário ainda mais simplificada e intuitiva na criação e execução de testes funcionais, especialmente para desenvolvedores iniciantes. Uma nova ferramenta também poderia buscar uma integração mais aprofundada com outras ferramentas de desenvolvimento e CI/CD, proporcionando um fluxo de trabalho mais coeso.
 
-## Ferramentas de teste de manutenibilidade.
+---
+
+## **Ferramentas de teste de manutenibilidade.**
 
 ### **Complexity Report**
 
-**Tipo de ferramenta:** Ferramenta de análise de código e métricas de complexidade.
+**Tipo de ferramenta:** Ferramenta de Análise Estatística.
 
 **Intenção da ferramenta:** A intenção do Complexity Report é avaliar a manutenibilidade do código-fonte de um software, identificando áreas que podem ser problemáticas devido a complexidade excessiva. A ferramenta visa ajudar os desenvolvedores a melhorar a qualidade e legibilidade do código, facilitando a manutenção futura.
 
@@ -64,7 +66,7 @@ As lacunas nas ferramentas de teste funcional podem incluir a falta de recursos 
 
 ### **CPPCheck**
 
-**Tipo de ferramenta:** Ferramenta de análise estática de código.
+**Tipo de ferramenta:** Ferramenta de Análise Estatística.
 
 **Intenção da ferramenta:** A intenção do CPPCheck é identificar potenciais erros e problemas no código-fonte escrito em linguagens C e C++. Ele foca em identificar vulnerabilidades, vazamentos de memória, uso inadequado de ponteiros, entre outros problemas que podem afetar a segurança e manutenibilidade do código.
 
@@ -80,27 +82,28 @@ A diferença entre Complexity Report e CPPCheck reside na abordagem para avaliar
 
 Uma possível lacuna nas ferramentas de teste de manutenibilidade é a falta de uma abordagem holística que combine métricas de complexidade do código com análise estática detalhada para identificar problemas específicos que afetam a manutenibilidade. Uma "nova" ferramenta poderia visar essa integração, oferecendo uma visão abrangente da qualidade e manutenibilidade do código, ao mesmo tempo em que fornece insights sobre problemas específicos que podem surgir durante a manutenção. Além disso, uma nova ferramenta poderia explorar a automação de refatorações recomendadas para melhorar a manutenibilidade do código.
 
-## Ferramentas de teste de usabilidade.
+---
+
+## **Ferramentas de teste de usabilidade.**
 
 ### **UserTesting**
 
-**Tipo de ferramenta:** Plataforma de teste de usabilidade.
+**Tipo de ferramenta:** Teste de Usabilidade e Inspeção de ferramentas.
 
 **Intenção da ferramenta:** UserTesting visa facilitar a realização de testes de usabilidade e coletar feedback dos usuários sobre produtos e interfaces, ajudando as equipes de design e desenvolvimento a melhorar a experiência do usuário.
 
 **Identificação das funcionalidades da ferramenta:**
-
 Recrutar participantes, definir cenários e tarefas, gravar sessões com áudio e vídeo, coletar métricas de desempenho e satisfção e gerar análises e relatórios abrangentes.
 
 ### **Website Grader**
 
-**Tipo de ferramenta:** Ferramenta de avaliação de websites.
+**Tipo de ferramenta:** Ferramenta de análise e estatística.
 
 **Intenção da ferramenta:** O Website Grader é projetado para avaliar a eficácia geral de um site, levando em consideração vários fatores que afetam a usabilidade e a performance.
 
 **Identificação das funcionalidades da ferramenta:**
 
-Avaliar o desempenho abrange velocidade de carregamento e adaptação a dispositivos móveise otimizar para SEO é essencial na busca online. Analisar redes ociais revela a percepção do público. Identificar oportunidades de melhoria fecha o ciclo de aprimoramento constante.
+Avaliar o desempenho abrange velocidade de carregamento e adaptação a dispositivos móveise otimizar para SEO é essencial na busca online. Analisar redes sociais revela a percepção do público. Identificar oportunidades de melhoria fecha o ciclo de aprimoramento constante.
 
 ---
 
@@ -112,11 +115,11 @@ O UserTesting é mais focado em testes de usabilidade e proporciona uma abordage
 
 Poderia ser desenvolvida uma nova ferramenta que combine aspectos do UserTesting e do Website Grader, proporcionando testes de usabilidade mais automatizados e detalhados. Essa nova ferramenta poderia realizar avaliações de usabilidade, desempenho e SEO de forma integrada, permitindo interações com usuários reais, bem como análises automáticas, oferecendo um pacote completo para a melhoria contínua das experiências online.
 
-## Ferramentas de teste de segurança.
+## **Ferramentas de teste de segurança.**
 
 ### **Bandit**
 
-**Tipo de ferramenta:** Ferramenta de análise de segurança de código-fonte.
+**Tipo de ferramenta:** Ferramenta de análise e estatística.
 
 **Intenção da ferramenta:** A ferramenta Bandit é usada para identificar vulnerabilidades de segurança no código-fonte de aplicações Python, ajudando desenvolvedores a garantir que seus códigos não contenham brechas de segurança conhecidas.
 
@@ -126,11 +129,11 @@ Realizar uma análise estática do código-fonte em Python é essencial para ide
 
 ### **Vega**
 
-**Tipo de ferramenta:** Plataforma de teste de segurança de aplicações web.
+**Tipo de ferramenta:** Ferramenta de segurança e teste de penetração.
 
 **Intenção da ferramenta:** Vega é projetada para auxiliar na avaliação de segurança de aplicações web, identificando vulnerabilidades e fornecendo informações sobre como corrigi-las.
 
-**Identificação das funcionalidades da ferramenta:** TODO:
+**Identificação das funcionalidades da ferramenta:**
 
 ---
 
@@ -142,11 +145,11 @@ O Bandit foca especificamente na análise de código-fonte Python em busca de vu
 
 Poderia ser desenvolvida uma nova ferramenta que combine as funcionalidades do Bandit e do Vega, proporcionando uma análise de segurança mais abragente que inclua tanto a análise de código-fonte quanto a avaliação de aplicações web. Essa nova ferramenta poderia oferecer uma abordagem mais integrada para identificar e corrigir vulnerabilidades em todas as camadas de uma aplicação, resultando em uma avaliação mais completa da segurança.
 
-## Ferramentas de teste de performance.
+## **Ferramentas de teste de performance.**
 
 ### **Google PageSpeed Insights**
 
-**Tipo de ferramenta:** Online, baseada em navegador.
+**Tipo de ferramenta:** Ferramentas de teste de perfomance.
 
 **Intenção da ferramenta:** A ferramenta Google PageSpeed Insights tem como objetivo avaliar a velocidade e o desempenho de uma página da web, oferecendo insights sobre como melhorar a velocidade de carregamento e a experiência do usuário.
 
@@ -154,7 +157,7 @@ Poderia ser desenvolvida uma nova ferramenta que combine as funcionalidades do B
 
 ### **OpenSTA**
 
-**Tipo de ferramenta:** Software de teste de carga de código aberto.
+**Tipo de ferramenta:** Ferramentas de teste de perfomance.
 
 **Intenção da ferramenta:** O OpenSTA é uma ferramenta de teste de carga projetada para simular o tráfego realista em um sistema, avaliando como ele lida com uma grande quantidade de solicitações. Isso ajuda a identificar gargalos e pontos fracos no desempenho do sistema.
 
@@ -164,10 +167,42 @@ Poderia ser desenvolvida uma nova ferramenta que combine as funcionalidades do B
 
 **Comparação entre as duas ferramentas da mesma categoria, buscando levantar suas diferenças.**
 
-O Google PageSpeed Insights e o OpenSTA são ferramentas de teste de desempenho, mas com focos diferentes. O PageSpeed Insights é uma ferramenta online que s concentra em avaliar o desempenho de páginas da web, oferecendo insights e suestões para otimização. Ele fornece uma visão mais voltada para a experiência do usuário e a otimização de recursos web.
+O Google PageSpeed Insights e o OpenSTA são ferramentas de teste de desempenho, mas com focos diferentes. O PageSpeed Insights é uma ferramenta online que se concentra em avaliar o desempenho de páginas da web, oferecendo insights e suestões para otimização. Ele fornece uma visão mais voltada para a experiência do usuário e a otimização de recursos web.
 
 Por outro lado, o OpenSTA é uma ferramenta de código aberto que se concentra em testes de carga, simulando cargas realistas em sistemas para avaliar seu desempenho sob pressão. Ele é mais orientado para identificar como um sistema responde a um grande número de solicitações e qual é o seu limite de capacidade.
 
 **Quais são as lacunas nas ferramentas de uma categoria que podem permitir a construção de uma "nova"?**
 
 Uma lacuna que pode permitir a construção de uma nova ferramenta de teste de desempenho é uma abordagem mais holística que combine os aspectos de avaliação de desempenho de páginas web com testes de carga em sistemas. Isso permitiria aos desenvolvedores obter insights não apenas sobre a otimização da experiência do usuário, mas também sobre como o sistema como um todo lida com diferentes carga de tráfego. Além disso, uma nova ferramenta poderia oferecer uma análise mais detalhada das métricas de desempenho, incluindo aspectos como latência, consumo de recursos e estabilidade sob carga extrema.
+
+---
+
+## **Ferramentas de validação de código.**
+
+### **SonarQube**
+
+**Tipo de ferramenta:** Ferramentas de validação de código.
+
+**Intenção da ferramenta:** O SonarQube é uma plataforma de análise estática de código projetada para ajudar equipes de desenvolvimento a identificar problemas de qualidade de código, vulnerabilidades e falhas de segurança em seus projetos de software.
+
+**Identificação das funcionalidades da ferramenta:** O SonarQube realiza análises automáticas em códigos-fonte, identificando potenciais problemas como complexidade excessiva, duplicação de código, vulnerabilidades conhecidas, conformidade com padrões de codificação e boas práticas. Ele gera relatórios detalhados que destacam os problemas encontrados, classificando-os por gravidade e fornecendo sugestões para correção.
+
+### **Codacy**
+
+**Tipo de ferramenta:** Ferramentas de validação de código.
+
+**Intenção da ferramenta:** O Codacy é uma plataforma automatizada de revisão de código que visa melhorar a qualidade do software, ajudando equipes de desenvolvimento a identificar problemas de código, reduzir dívidas técnicas e manter um alto padrão de codificação.
+
+**Identificação das funcionalidades da ferramenta:** O Codacy verifica automaticamente o código-fonte em busca de problemas como complexidade, estilo de codificação inconsistente, vulnerabilidades de segurança, entre outros. Ele fornece insights detalhados através de análises estáticas e integrações com sistemas de controle de versão. Além disso, o Codacy permite a definição de políticas de código personalizadas para garantir que os padrões de qualidade sejam mantidos ao longo do tempo.
+
+---
+
+**Comparação entre as duas ferramentas da mesma categoria, buscando levantar suas diferenças.**
+
+O SonarQube e o Codacy são ferramentas de validação de código que buscam melhorar a qualidade do software, mas abordam isso de maneiras ligeiramente diferentes. O SonarQube é uma plataforma mais abrangente, focando não apenas na revisão de código, mas também na detecção de vulnerabilidades de segurança e na análise da conformidade com padrões de codificação. Ele oferece uma análise mais ampla do código, incluindo métricas de complexidade e cobertura de testes.
+
+Por outro lado, o Codacy é mais centrado na revisão de código e na manutenção de padrões de codificação consistentes. Ele se destaca pela facilidade de integração com sistemas de controle de versão e pela capacidade de definir políticas de qualidade de código personalizadas. Embora ofereça análises de vulnerabilidades, a ênfase principal do Codacy é garantir a consistência do código e a adesão às melhores práticas.
+
+**Quais são as lacunas nas ferramentas de uma categoria que podem permitir a construção de uma "nova"?**
+
+Uma lacuna que poderia ser explorada na construção de uma nova ferramenta de validação de código é a incorporação de uma análise mais profunda de dependências de terceiros. Muitos projetos de software dependem de bibliotecas externas, e vulnerabilidades nessas bibliotecas podem impactar diretamente a segurança e qualidade do software. Uma nova ferramenta poderia se concentrar em identificar e alertar sobre vulnerabilidades em dependências, permitindo que as equipes de desenvolvimento tomem medidas proativas para mitigar esses riscos. Além disso, a integração de análises avançadas de padrões de codificação específicos para diferentes linguagens também poderia ser uma área de expansão para uma nova ferramenta.
